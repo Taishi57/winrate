@@ -35,13 +35,10 @@ $(document).ready(function(){
             $('#result').append(
                 '<div class="row">' +
                     '<div class="col-6">' +
-                        '<p>'+ winrate[i].name +'</p>' +
+                        '<p><b>'+ winrate[i].name +'</b></p>' +
                     '</div>' +
-                    '<div class="col-3">' +
-                        '<p>'+ winrate[i].win +'</p>' +
-                    '</div>' +
-                    '<div class="col-3">' +
-                        '<p>'+ winrate[i].loss +'</p>' +
+                    '<div class="col-6">' +
+                        '<p><b>'+ winrate[i].win +' - ' + winrate[i].loss + '</b></p>' +
                     '</div>' +
                 '</div>'
             );
