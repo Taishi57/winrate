@@ -1,0 +1,29 @@
+body{
+    background-color:#222222 !important;
+    color:#eeeeee !important;
+}
+@media (min-width: 600px) {
+    .container{
+        max-width:600px !important;
+    }
+}
+
+h1{
+    text-align: center;
+    padding:50px 0px;
+}
+input{
+    width:100%;
+}
+button{
+    width:100%;
+}
+#inputBox{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#result{
+    margin-top:10px;
+    padding:16px 20px 00px 20px;
+    background-color:#333333;
+}
