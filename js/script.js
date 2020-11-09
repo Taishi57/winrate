@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    console.log('script.js loaded')
+    console.log('script.js v1 loaded')
     var playerCount = 1;
     var winrate = [];
     $('#add').click(function(){
