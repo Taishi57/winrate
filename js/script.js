@@ -30,17 +30,14 @@ $(document).ready(function(){
             });
         }
         var sorted = winrate.sort(compare);
-        $('#result').empty();
+        $('#result .names').empty();
+        $('#result .scores').empty();
         for(var i = 0; i < playerCount; i++){
-            $('#result').append(
-                '<div class="row">' +
-                    '<div class="col-6">' +
-                        '<p><b>'+ winrate[i].name +'</b></p>' +
-                    '</div>' +
-                    '<div class="col-6">' +
-                        '<p><b>'+ winrate[i].win +' - ' + winrate[i].loss + '</b></p>' +
-                    '</div>' +
-                '</div>'
+            $('#result .names').append(
+                '<p><b>'+ winrate[i].name +'</b></p>'
+            );
+            $('#result .scores').append(
+                '<p><b>'+ winrate[i].win +' - ' + winrate[i].loss + '</b></p>'
             );
         }
         
