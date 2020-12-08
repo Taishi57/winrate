@@ -34,10 +34,10 @@ $(document).ready(function(){
         $('#result .scores').empty();
         for(var i = 0; i < playerCount; i++){
             $('#result .names').append(
-                '<p><b>'+ winrate[i].name +'</b></p>'
+                '<b>'+ winrate[i].name +'</b></br>'
             );
             $('#result .scores').append(
-                '<p><b>'+ winrate[i].win +' - ' + winrate[i].loss + '</b></p>'
+                '<b>'+ winrate[i].win +'-' + winrate[i].loss + '</b></br>'
             );
         }
         
